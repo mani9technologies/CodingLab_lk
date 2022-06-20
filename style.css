@@ -37,33 +37,43 @@ body{
 }
 
 .home{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .about{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .services{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .contact{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .fdback{
-    margin-right: 20px;
+    margin-right: 30px;
 }
-.home:hover{
+.home:hover{ 
+    transform: scale(1.5);
+    transition: 1s;
     color: #ff0000;
 }
 .about:hover{
+    transform: scale(1.5);
+    transition: 1s;
     color: #ff7f27;
 }
 .services:hover{
+    transform: scale(1.5);
+    transition: 1s;
     color: #ffca18;
 }
 .contact:hover{
+    transform: scale(1.5);
+    transition: 1s;
     color: #0ed145;
 }
 .fdback:hover{
+    transform: scale(1.5);
+    transition: 1s;
     color: #64f0c1;
 }
 .center{
