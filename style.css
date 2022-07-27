@@ -94,7 +94,6 @@ body{
     font-family: 'Poppins';
     text-align: center;
     padding: 10px;
-    
 }
 .btns{
     width: 100%;
@@ -118,7 +117,9 @@ body{
 .outlined:hover{
     background-color: white;
     border-color: white;
+    transform: scale(1.2);
     color: black;
+    margin-right: 10px;
 }
 .inlined{
     padding: 2px;
@@ -137,4 +138,6 @@ body{
     background-color: transparent;
     border-color: white;
     color: white; 
+    transform: scale(1.2);
+    margin-left: 10px;
 }
